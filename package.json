@@ -1,0 +1,35 @@
+{
+  "name": "-ecp",
+  "version": "1.0.0",
+  "description": "practice",
+  "main": "gulpfile.js",
+  "scripts": {
+    "start": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Frank120/-Ecp.git"
+  },
+  "author": "Frank120",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-data": "^1.2.1",
+    "gulp-if": "^2.0.2",
+    "gulp-imagemin": "^3.4.0",
+    "gulp-nunjucks-render": "^2.2.1",
+    "gulp-sass": "^3.1.0",
+    "tiny-slider": "^2.3.11",
+    "webpack-stream": "^4.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/Frank120/-Ecp/issues"
+  },
+  "homepage": "https://github.com/Frank120/-Ecp#readme"
+}
+ 
