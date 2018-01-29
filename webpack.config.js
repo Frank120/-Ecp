@@ -1,7 +1,7 @@
 module.exports = {
     watch: true,
     entry: {
-        'scripts': './dev/js/index'
+        'script': './dev/js/index'
     },
     output: {
         filename: '[name].js'

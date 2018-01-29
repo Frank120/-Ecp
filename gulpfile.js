@@ -10,7 +10,7 @@ var browsersync = require('browser-sync').create();
 
 gulp.task('webpack', () => {
     gulp.src('./dev/js/*.js')
-        .pipe(webpack( require('./webpack.config.js') )).addListener
+        .pipe(webpack( require('./webpack.config.js') ))
         .pipe(gulp.dest('./build/js'));
 });
 
@@ -28,12 +28,12 @@ gulp.task('html', ()=> {
         .pipe(data(()=> {
             return require('./dev/data/site.json')
         }))
-        .pipe(data(()=> {
-            return require('./dev/data/page-a.json')
-        }))
-        .pipe(data(()=> {
-            return require('./dev/data/page-b.json')
-        }))
+        // .pipe(data(()=> {
+        //     return require('./dev/data/page-a.json')
+        // }))
+        // .pipe(data(()=> {
+        //     return require('./dev/data/page-b.json')
+        // }))
         .pipe(html({
             path: ['./dev/html']
         }))

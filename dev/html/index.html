@@ -1,10 +1,52 @@
-{% set version = "a" %}
-{% extends "base/page.html "%}
-{% block content %}
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{{ site.name }}</title>
+    <style>
+        body {
+            background-color: #f1f7fb;
+            color: #00205b;
+            font-family: "Roboto Slab";
+        }
 
-<main class="front-page" data-js="animationHandler">
+        .page {
+            display: grid;
+            grid-row-gap: 30px;
+            font-weight: 300;
+            padding: 60px;
+        }
 
-    <div>hello</div>
-</main>
+        .global-logo path:not(.cls-5) {
+            fill: #00205b;
+        }
 
-{% endblock %}
+        .cls-1 {
+            opacity: 1;
+        }
+
+        .cls-5 {
+            fill: transparent;
+        }
+
+        a {
+            display: block;
+            font-size: 2em;
+            color: inherit;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #808fad;
+        }
+    </style>
+</head>
+<body>
+    <main class="page">
+        <a href="homepage.html">homepage</a>
+    </main>
+</body>
+</html>
