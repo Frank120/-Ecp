@@ -6,6 +6,7 @@ import { tns }    from 'tiny-slider/src/tiny-slider.module';
 
 // import components module
 import waterFulHandle from './components/waterful';
+import accordionHandler from './components/accordion';
 
 // import handle module
 import components from './app/components';
@@ -18,7 +19,8 @@ import run        from './app/run';
     };
 
     APP.components = {
-        waterFulHandle
+        waterFulHandle,
+        accordionHandler
     };
 
     APP.start = {

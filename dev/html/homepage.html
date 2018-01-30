@@ -2,9 +2,15 @@
 {% extends "base/base.html" %}
 {% block content %}
 
-<main class="front-page" data-js="animationHandler">
+<main class="front-page">
 
+    <h2 class="title-module">Vertical waterfall flow module</h2>
     {% include "components/_waterful.html" %}
+
+    <div class="accordion-module">
+        <h2 class="title-module">Accordion module</h2>
+        {% include "components/_accordion.html" %}
+    </div>
 </main>
 
 {% endblock %}

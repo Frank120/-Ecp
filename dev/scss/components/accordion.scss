@@ -1,0 +1,56 @@
+.accordion_content {
+  width: 50%;
+  height: auto;
+
+  .accordion {
+    .accordion_item {
+      width: 100%;
+      border: 1px solid saddlebrown;
+
+      .show_desc {
+        border-bottom: 2px solid #000;
+        margin: 5px 10px;
+        font-size: 0;
+
+        .desc {
+          width: 80%;
+          font-size: 25px;
+          display: inline-block;
+          vertical-align: middle;
+          text-transform: capitalize;
+        }
+
+        .icon {
+          width: 20%;
+          font-size: 30px;
+          display: inline-block;
+          vertical-align: middle;
+          text-align: center;
+          cursor: pointer;
+        }
+      }
+
+      .hide_desc {
+        height: 0;
+        overflow: hidden;
+        margin: 5px 10px;
+
+        .show_desc {
+          .desc {
+            vertical-align: middle;
+            display: inline-block;
+            font-size: 30px;
+            width: 100%;
+          }
+
+          .icon {
+            vertical-align: middle;
+            display: inline-block;
+            font-size: 22px;
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}
