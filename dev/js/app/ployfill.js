@@ -8,7 +8,7 @@ export default () => {
                 i        = ownProps.length,
                 resArray = new Array(i);
             while (i--) {
-                resArray[i] = [ownProps[i], onj[ownProps[i]]];
+                resArray[i] = [ownProps[i], obj[ownProps[i]]];
 
                 return resArray;
             };
