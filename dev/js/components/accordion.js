@@ -4,16 +4,22 @@ export default class {
         this.items = this.element.querySelectorAll(".icon");
     }
 
-    clickItem() {
+    clickItem(target) {
+        var _this = this;
         for (var i = 0; i < this.items.length; i++) {
-           this.items[i].addEventListener("click", (item) => {
-               console.log(item);
-           }, false)
+            _this.items[i].addEventListener("click", () => {
+                _this.innerText = " ";
+                _this.innerText = "+";
+                console.log(this);
+                console.log(_this);
+                console.log(this.parentElement);
+                console.log(_this.parentElement);
+           }, true)
         }
     };
 
     init() {
-        this.clickItem();
+        this.clickItem(this);
     }
 
 }
