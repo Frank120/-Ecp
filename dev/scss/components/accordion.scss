@@ -35,20 +35,28 @@
         overflow: hidden;
         margin: 5px 10px;
 
-        .show_desc {
-          .desc {
-            vertical-align: middle;
-            display: inline-block;
-            font-size: 30px;
-            width: 100%;
-          }
+        .large_desc {
+          vertical-align: middle;
+          display: inline-block;
+          color: saddlebrown;
+          padding: 0 10px;
+          font-size: 30px;
+          width: 100%;
+        }
 
-          .icon {
-            vertical-align: middle;
-            display: inline-block;
-            font-size: 22px;
-            width: 100%;
-          }
+        .small_desc {
+          vertical-align: middle;
+          display: inline-block;
+          padding: 0 10px;
+          font-size: 22px;
+          width: 100%;
+        }
+      }
+
+      &.is-open {
+        .hide_desc {
+          height: auto;
+          overflow: visible;
         }
       }
     }
