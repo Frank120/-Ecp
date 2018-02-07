@@ -1,0 +1,24 @@
+.carousel_content {
+    position: relative;
+    width: 300px;
+
+    .v_input {
+        outline: none;
+        width: 100%;
+        height: 30px;
+        text-indent: 5px;
+        padding: 0;
+        border: none;
+        // opacity: 0;
+    }
+
+    .reall_input {
+        width: 100%;
+        height: 30px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        border: 1px solid;
+    }
+}
+
