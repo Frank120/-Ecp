@@ -1,3 +1,6 @@
 
 
-how to run the project <br/>  npm install <br> npm run start
+how to run the project
+-----
+
+npm install <br> npm run start
